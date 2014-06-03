@@ -264,11 +264,68 @@ section{
   font-size: 3em;
   text-align: center;
   text-decoration: none;
-  transition: .1s;
+  transition: .25s;
 }
 
 
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+
+
+/* desktop styling */
+@media  screen and (max-width: 1200px) {
+
+
+
+  article img {
+  width: 75%;
+  max-width: 75%;
+}
+
+}
+
+/* desktop styling */
+@media  screen and (max-width: 1000px) {
+
+
+}
+
+/* tablet styling */
+@media  screen and (max-width: 768px) {
+
+
+
+  article section {
+  width: 50%;
+}
+
+
+}
+
+/* mobil styling */
+@media  screen and (max-width: 480px) {
+
+article section {
+  text-align: center;
+  width: 100%;
+
+  transition: width 1s;
+}
+
+article img {
+  width: 50%;
+  max-width: 50%;
+}
+
+nav li {
+  float: none;
+  margin: .5em 0;
+}
+header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 }
