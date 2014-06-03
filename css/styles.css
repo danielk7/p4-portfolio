@@ -38,7 +38,7 @@ nav {
   margin:0;
   padding:0;
   width:105%;
-  height:90px;
+  height:100px;
   
   text-align:center;
   
@@ -120,7 +120,7 @@ html, body {
 
 .content {
   margin-top: 50px;
-  padding: 175px;
+  padding: 185px;
   padding-bottom: 15px;
   font: 35px'roboto', sans-serif;
   text-align: center;
