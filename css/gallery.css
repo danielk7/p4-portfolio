@@ -1,8 +1,7 @@
 .gallery {
   position: relative;
-  height: 400px; 
-
-}
+  height: 400px;
+ }
 
 .gallery .item {
   position: absolute;

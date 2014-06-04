@@ -245,7 +245,7 @@ section{
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: white;
+  background: none;
 }
 .gallery .controls {
   position: absolute;
@@ -265,8 +265,12 @@ section{
   text-align: center;
   text-decoration: none;
   transition: .25s;
+  opacity: .5;
 }
 
+.gallery .control-button:hover {
+opacity: 1;
+}
 
 /* Show Grid */
 .showgrid {
