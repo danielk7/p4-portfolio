@@ -318,8 +318,8 @@ article section {
   transition: width 1s;
 }
 
-article img {
-  width: 50%;
+img {
+  width: 100%;
   max-width: 50%;
 }
 
